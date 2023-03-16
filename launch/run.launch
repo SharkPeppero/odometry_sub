@@ -1,0 +1,6 @@
+<launch>
+    <param name="path_save" type="string" value="$(find odom_sub)/result/trac.txt" />
+    <param name="sub_topic" type="string" value="aft_mapped_to_init" />
+
+    <node pkg="odom_sub" type="odom_sub" name="odom_sub" output="screen"/>
+</launch>

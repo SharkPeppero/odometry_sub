@@ -1,0 +1,4 @@
+evo_traj tum livox_mapping.txt fast_lio2.txt --ref=r3live.txt -p -a
+
+evo_traj tum livox_mapping.txt fast_lio2.txt --ref=groundtruth.tum -p --plot_mode=xyz --align --correct_scale
+
